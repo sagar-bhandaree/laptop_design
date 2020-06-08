@@ -1,0 +1,243 @@
+.laptop {
+    margin: 50px auto;
+  }
+  .parallelogram {
+    width: 690px;
+    height: 280px;
+    transform: skew(-25deg);
+    background: rgb(146, 140, 140);
+    float: left;
+    margin-left: 354px;
+    margin-bottom: 10px;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .rectangle {
+    background-attachment: scroll;
+    height: 300px;
+    width: 650px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #555;
+    float: left;
+    margin-left: 420px;
+    border: 20px solid rgb(0, 0, 0);
+  }
+  .circle {
+    height: 8px;
+    width: 8px;
+    background-color: #555;
+    border-radius: 50%;
+    float: right;
+    margin-top: -333px;
+    margin-right: 570px;
+  }
+  .logo {
+    float: right;
+    margin-right: 570px;
+    margin-top: -19px;
+  }
+
+  .keyboard-layout {
+    float: right;
+    margin-top: -280px;
+    margin-right: 216px;
+    transform: skew(-25deg);
+  }
+  .sixth-inner {
+    float: left;
+    margin-left: 510px;
+    margin-top: -20px;
+  }
+  .keyboard-layout button {
+    background-color: black;
+    color: #ccc;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  .first-row,
+  .second-row,
+  .third-row,
+  .fourth-row,
+  .sixth-row {
+    width: fit-content;
+  }
+  .first-row button {
+    width: 35px;
+  }
+  .first-row button:nth-child(14),
+  .first-row button:nth-child(15) {
+    width: 47px;
+  }
+  .first-row button:last-child {
+    width: 48px;
+  }
+
+  .second-row button,
+  .third-row button,
+  .fourth-row button,
+  .fifth-row button,
+  .sixth-row button {
+    margin-top: 5px;
+    width: 40px;
+    height: 30px;
+  }
+  .second-row button:last-child {
+    width: 85px;
+    text-align: right;
+  }
+
+  .third-row button:first-child {
+    width: 60px;
+    text-align: left;
+  }
+
+  .fourth-row button:first-child {
+    width: 80px;
+    text-align: left;
+  }
+  .fourth-row button:last-child {
+    width: 88px;
+    text-align: right;
+    border-top: #000;
+  }
+  .fourth-row button:nth-child(13) {
+    width: 20px;
+    padding-bottom: 45px;
+    color: #000;
+    float: right;
+    margin-left: -20px;
+    margin-top: -30px;
+    border-bottom: #000;
+  }
+  .fifth-row button:first-child {
+    width: 95px;
+    text-align: left;
+  }
+  .fifth-row button:last-child {
+    width: 117px;
+    text-align: right;
+  }
+  .sixth-row button:nth-child(5) {
+    width: 240px;
+  }
+  .sixth-row img {
+    height: 10px;
+    width: 10px;
+  }
+
+  .sixth-inner button {
+    width: 46px;
+    height: 20px;
+  }
+  .sixth-inner button:last-child {
+    float: left;
+    margin-top: -20px;
+    margin-left: 50px;
+  }
+  .sixth-inner img {
+    height: 12px;
+    width: 10px;
+  }
+
+  .touch-pad {
+    height: 50px;
+    width: 120px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #555;
+    margin-top: 10px;
+    margin-left: 250px;
+  }
+  .logo1 {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: -50px;
+  }
+  .logo2 {
+    height: 35px;
+    width: 50px;
+    float: right;
+    margin-right: 100px;
+    margin-top: -40px;
+  }
+  .icon1,
+  .icon2,
+  .icon3,
+  .icon4,
+  .icon5 {
+    height: 30px;
+    float: right;
+    margin-right: 850px;
+  }
+  .icon1 {
+    margin-top: -300px;
+  }
+  .icon2 {
+    margin-top: -250px;
+  }
+  .icon3 {
+    margin-top: -200px;
+    margin-right: 840px;
+  }
+  .icon4 {
+    margin-top: -150px;
+  }
+  .icon5 {
+    margin-top: -100px;
+  }
+  .tbar-bg {
+    width: 650px;
+    height: 25px;
+    float: right;
+    margin-right: 243px;
+    margin-top: -45px;
+  }
+  .taskbar {
+    position: relative;
+    z-index: 1;
+  }
+  .tbar-icon1,
+  .tbar-icon2,
+  .tbar-icon3,
+  .tbar-icon4,
+  .tbar-icon5,
+  .tbar-icon6,
+  .tbar-icon7 {
+    height: 15px;
+    float: right;
+    margin-top: -40px;
+  }
+  .tbar-icon1 {
+    margin-right: 865px;
+  }
+  .tbar-icon2 {
+    margin-right: 820px;
+  }
+  .tbar-icon3 {
+    margin-top: -40px;
+    height: 12px;
+    margin-right: 775px;
+  }
+  .tbar-icon4 {
+    margin-top: -40px;
+    height: 14px;
+    margin-right: 730px;
+  }
+  .tbar-icon5 {
+    margin-top: -39px;
+    margin-right: 300px;
+  }
+  .tbar-icon6 {
+    height: 10px;
+    margin-top: -37px;
+    margin-right: 280px;
+  }
+  .tbar-icon7 {
+    height: 14px;
+    margin-top: -38px;
+    margin-right: 250px;
+  }
+  .window-img {
+    height: 250px;
+    float: right;
+    margin-top: -310px;
+    margin-right: 330px;
+  }
